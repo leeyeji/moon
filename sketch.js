@@ -5,6 +5,7 @@ function setup() {
   bg = loadImage("bg.png");
   earth = loadImage("earth.png");
   moon = loadImage("moon.png");
+  ma, = loadImage("man.png");
 }
 
 
@@ -55,6 +56,14 @@ function draw() {
   //태양
   image(solar,250,250,500,500);
 
+ //man
+ var duration = 5000;
+ var timing = (new Date()%duration)/duration;
+
+  image(img4 , 500-60/2 + Math.cos(timing*2*PI)*300+ Math.cos(timing*2*PI)*100,           // x좌표
+        500-60/2 + Math.sin(timing*2*PI)*300+ Math.cos(timing*2*PI)*100, // y좌표
+        60,                                  // width
+        60);                                 // height 
 
   //달1
   image(moon,500 + Math.cos(timing1*2*PI)*300 + Math.cos(timing2*4*PI)*150-100,
