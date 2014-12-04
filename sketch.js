@@ -5,7 +5,7 @@ function setup() {
   bg = loadImage("bg.png");
   earth = loadImage("earth.png");
   moon = loadImage("moon.png");
-  ma, = loadImage("man.png");
+  man = loadImage("man.png");
 }
 
 
@@ -53,7 +53,7 @@ function draw() {
         200,
         200);
 
-  //태양
+  //solar
   image(solar,250,250,500,500);
 
  //man
