@@ -42,8 +42,5 @@ function draw()
         500-60/2 + Math.sin(timing*2*PI)*300+ Math.cos(timing*2*PI)*100, // y좌표
         60,                                  // width
         60);                                 // height 
-
-image(img3, 500, 500);
-
 }
 
