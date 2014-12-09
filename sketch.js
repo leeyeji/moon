@@ -6,7 +6,7 @@ function setup()
    bg = loadImage("bg.png");
    img1 = loadImage("earth.png");
    img2 = loadImage("moon.png");
-   img3 = loadImage("sun.png");
+   img3 = loadImage("solar.png");
    img4 = loadImage("man.png");
 }
 
